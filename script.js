@@ -1,5 +1,6 @@
 document.getElementById("taskForm").addEventListener("submit", function (e) {
   e.preventDefault();
+  // comment
   const task = document.getElementById("taskInput").value;
 
   fetch("/api/tasks.php", {
